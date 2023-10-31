@@ -105,3 +105,15 @@ Ken is 30 years old and works as Chef
 Pat is 35 years old and works as Lawyer
 Amanda is 25 years old and works as Engineer
 """
+
+# Eliminar un valor de una lista
+
+my_list = [27, 5, 9, 6, 8]
+
+def RemoveValue(myVal):
+    my_list.remove(myVal)
+    return my_list
+
+print(RemoveValue(9))
+
+# print(RemoveValue(27)) si lo pasamos otra vez dará error al no estar ya en la lista
